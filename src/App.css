@@ -1,0 +1,72 @@
+.list{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    color: aliceblue;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    border-style: outset;
+    gap: 10px;
+    margin: 15px;
+    border-radius: 20%
+}
+
+.listproducts{
+    list-style:  none;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: end
+}
+
+.boardForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: rgb(68, 23, 23); */
+    /* color: aliceblue; */
+    padding: 10px;
+}
+
+.botton{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.isAvailable{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+form {
+    background-color: black;
+    align-items: flex-start;
+    width: auto;
+    padding: 20px;
+    border-radius: 40px;
+    border-style: outset;
+    border-color:red ;
+    color: aliceblue;
+}
+.inputs{
+    
+     display: flex;   
+     flex-direction: column;
+     align-items: center;
+     margin: 5px;
+}
+button{
+    border-radius:60px;
+    width: auto;
+    padding: 8px;
+    margin: 5px;
+    border-style: outset;
+}
+
+button:hover {
+    background-color: yellow;
+  }
